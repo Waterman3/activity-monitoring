@@ -17,7 +17,7 @@
   #train_subjects - number of training subject
   
   # Find field names for X_test and X_train
-  field_names<-read.table("teatures.txt", sep="\t")
+  field_names<-read.table("teatures.txt", sep=" ")
   
   #Create character matrix of field names for X_test and Y_test
   
