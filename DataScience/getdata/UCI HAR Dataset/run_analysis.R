@@ -6,7 +6,7 @@
   # a similar manner, to create one data set, and then extracts mean values 
   # of the measurements on the mean and standard deviation for each 
   # measurement, for each activity and each subject.
-  
+  c
   #Available data sets are:
   #activity_labels - labels for activities
   #X_test - test measurements
