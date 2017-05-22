@@ -1,0 +1,104 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @Waterman3
+
+1
+0
+
+    0
+
+Waterman3/activity-monitoring
+Code Book for Activity Monitoring Project
+
+This document describes the data items (fields) in the dataset motion_study,
+which contains means and standard deviations of various measurements for
+a given person performing a given activity.
+
+Field						Description
+
+Subject					Integer value assigned to a person who took part in the study
+Activity					Activity for which measurement have been taken. This has a value that is one of the following:
+							WALKING
+							WALKING_UPSTAIRS
+							WALKING_DOWNSTAIRS
+							SITTING
+							STANDING
+							LAYING
+mean_TimeBodyAcc_mean_X			Mean time-based signal from accelerometer measurement of body motion in x-direction.
+mean_TimeBodyAcc_mean_Y			Mean time-based signal from accelerometer measurement of body motion in y-direction.
+mean_TimeBodyAcc_mean_Z			Mean time-based signal from accelerometer measurement of body motion in z-direction.
+mean_TimeBodyAcc_stddev_X		Standard deviation of time-based signal from accelerometer measurement of body motion in x-direction.
+mean_TimeBodyAcc_stddev_Y		Standard deviation of time-based signal from accelerometer measurement of body motion in y-direction.
+mean_TimeBodyAcc_stddev_Z		Standard deviation of time-based signal from accelerometer measurement of body motion in z-direction.
+mean_TimeGravityAcc_mean_X		Mean of time-based signal from accelerometer measurement of gravity in x-direction.
+mean_TimeGravityAcc_mean_Y		Mean of time-based signal from accelerometer measurement of gravity in y-direction.
+mean_TimeGravityAcc_mean_Z		Mean of time-based signal from accelerometer measurement of gravity in z-direction.
+mean_TimeGravityAcc_stddev_X		Standard deviation of time-based signal from accelerometer measurement of gravity in x-direction.
+mean_TimeGravityAcc_stddev_Y		Standard deviation of time-based signal from accelerometer measurement of gravity in y-direction.
+mean_TimeGravityAcc_stddev_Z		Standard deviation of time-based signal from accelerometer measurement of gravity in z-direction.
+mean_TimeBodyAccJerk_mean_X		Mean time-based linear acceleration of body in x-direction.
+mean_TimeBodyAccJerk_mean_Y		Mean time-based linear acceleration of body in y-direction.
+mean_TimeBodyAccJerk_mean_Z		Mean time-based linear acceleration of body in z-direction.
+mean_TimeBodyAccJerk_stddev_X	Standard deviation time-based linear acceleration of body in x-direction.
+mean_TimeBodyAccJerk_stddev_Y	Standard deviation time-based linear acceleration of body in y-direction.
+mean_TimeBodyAccJerk_stddev_Z	Standard deviation time-based linear acceleration of body in z-direction.
+mean_TimeBodyGyro_mean_X			Mean time-based signal from gyroscope measurement in x-direction.
+mean_TimeBodyGyro_mean_Y			Mean time-based signal from gyroscope measurement in y-direction.
+mean_TimeBodyGyro_mean_Z			Mean time-based signal from gyroscope measurement in z-direction.
+mean_TimeBodyGyro_stddev_X		Standard deviation of signal from gyroscope measurement in x-direction.
+mean_TimeBodyGyro_stddev_Y		Standard deviation of signal from gyroscope measurement in y-direction.
+mean_TimeBodyGyro_stddev_Z		Standard deviation of signal from gyroscope measurement in z-direction.
+mean_TimeBodyGyroJerk_mean_X		Mean time-based x-direction component of angular velocity.
+mean_TimeBodyGyroJerk_mean_Y		Mean time-based y-direction component of angular velocity.
+mean_TimeBodyGyroJerk_mean_Z		Mean time-based z-direction component of angular velocity.
+mean_TimeBodyGyroJerk_stddev_X	Standard deviation of time-based x-direction component of angular velocity.
+mean_TimeBodyGyroJerk_stddev_Y	Standard deviation of time-based y-direction component of angular velocity.
+mean_TimeBodyGyroJerk_stddev_Z	Standard deviation of time-based z-direction component of angular velocity.
+mean_TimeBodyAccMag_mean			Mean Euclidean norm of time-based signal from accelerometer measurement of body motion.
+mean_TimeBodyAccMag_stddev		Standard deviation of Euclidean norm of time-based signal from accelerometer measurement
+							of body motion.
+mean_TimeGravityAccMag_mean		Mean Euclidean norm of time-based signal from measurement of body motion due to gravity.
+mean_TimeGravityAccMag_stddev	Standard deviation of Euclidean norm of time-based signal from measurement of body motion 
+							due to gravity.
+mean_TimeBodyAccJerkMag_mean		Mean Euclidean norm of time-based linear acceleration of body.
+mean_TimeBodyAccJerkMag_stddev	Standard deviation of Euclidean norm of time-based linear acceleration of body.
+mean_TimeBodyGyroMag_mean		Mean Euclidean norm of time based gyroscope measurement of body motion.
+mean_TimeBodyGyroMag_stddev		Standard deviation of the Euclidean norm time based gyroscope measurement of body motion.
+mean_TimeBodyGyroJerkMag_mean	Mean Euclidean norm of time-based angular velocity of body.
+mean_TimeBodyGyroJerkMag_stddev	Standard deviation of the Euclidean norm of angular velocity of body.
+mean_FFTBodyAcc_mean_X			Fast Fourier transform of mean accelerometer signal in x-direction.
+mean_FFTBodyAcc_mean_Y			Fast Fourier transform of mean accelerometer signal in y-direction.
+mean_FFTBodyAcc_mean_Z			Fast Fourier transform of mean accelerometer signal in z-direction.
+mean_FFTBodyAcc_stddev_X			Fast Fourier transform of standard deviation of accelerometer signal in x-direction.
+mean_FFTBodyAcc_stddev_Y			Fast Fourier transform of standard deviation of accelerometer signal in y-direction.
+mean_FFTBodyAcc_stddev_Z			Fast Fourier transform of standard deviation of accelerometer signal in z-direction.
+mean_FFTBodyAccJerk_mean_X		Fast Fourier transform of mean linear acceleration of body in x-direction.
+mean_FFTBodyAccJerk_mean_Y		Fast Fourier transform of mean linear acceleration of body in y-direction.
+mean_FFTBodyAccJerk_mean_Z		Fast Fourier transform of mean linear acceleration of body in z-direction.
+mean_FFTBodyAccJerk_stddev_X		Fast Fourier transform of standard deviation of linear acceleration of body in x-direction.
+mean_FFTBodyAccJerk_stddev_Y		Fast Fourier transform of standard deviation of linear acceleration of body in y-direction.
+mean_FFTBodyAccJerk_stddev_Z		Fast Fourier transform of standard deviation of linear acceleration of body in z-direction.
+mean_FFTBodyGyro_mean_X			Fast Fourier transform of mean gyroscope measurement of body in x-direction. 
+mean_FFTBodyGyro_mean_Y			Fast Fourier transform of mean gyroscope measurement of body in y-direction.
+mean_FFTBodyGyro_mean_Z			Fast Fourier transform of mean gyroscope measurement of body in z-direction.
+mean_FFTBodyGyro_stddev_X		Fast Fourier transform of standard deviation of gyroscope measurement of body in x-direction.
+mean_FFTBodyGyro_stddev_Y		Fast Fourier transform of standard deviation of gyroscope measurement of body in y-direction.
+mean_FFTBodyGyro_stddev_Z		Fast Fourier transform of standard deviation of gyroscope measurement of body in z-direction.
+mean_FFTBodyAccMag_mean			Fast Fourier transform of mean of Euclidean norm of accelerometer measurement of body motion. 
+mean_FFTBodyAccMag_stddev		Fast Fourier transform of standard deviation of Euclidan norm accelerometer measurement of
+							body motion.
+mean_FFTBodyBodyAccJerkMag_mean	Fast Fourier transform of mean Euclidean norm of linear acceleration of body.
+mean_FFTBodyBodyAccJerkMag_stddev	Fast Fourier transform of standard deviation of Euclidean norm of linear acceleration of body
+mean_FFTBodyBodyGyroMag_mean		Fast Fourier transform of mean Eucliean norm of signals from gyroscope measurements of body motion.
+mean_FFTBodyBodyGyroMag_stddev	Fast Fourier transform of standard deviation of Eucliean norm of signals from gyroscope measurements 
+							of body motion.
+mean_FFTBodyBodyGyroJerkMag_mean	Fast Fourier transform of mean Euclidean norm of angular velocity of body.
+mean_FFTBodyBodyGyroJerkMag_stddev Fast Fourier transform of standard deviation of Euclidean norm of angular velocity of body.
+
+
